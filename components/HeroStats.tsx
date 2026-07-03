@@ -10,7 +10,7 @@ const stats = [
     subtitle: "Partners",
   },
   {
-    value: 4,
+    value: 5,
     title: "Industries",
     subtitle: "Served",
   },
@@ -30,7 +30,7 @@ const stats = [
 
 export default function HeroStats() {
   return (
-    <div className="mt-16 border-t border-white/20 pt-10">
+    <div className="mt-16 border-t border-white/20 pt-10 pb-12 lg:pb-0">
       <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
 
         {stats.map((item) => (

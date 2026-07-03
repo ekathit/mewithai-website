@@ -3,7 +3,7 @@ import HeroStats from "@/components/HeroStats";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center justify-center bg-slate-950 px-6 pt-20 text-white">
+    <section className="relative flex min-h-screen items-center justify-center bg-slate-950 px-6 pt-32 lg:pt-20 text-white">
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(15,23,42,0.78),rgba(15,23,42,0.88))]" />
 

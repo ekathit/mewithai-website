@@ -9,11 +9,11 @@ export default function NewsPage() {
         <div className="mx-auto max-w-5xl px-6">
 
           <p className="font-semibold uppercase tracking-[0.25em] text-blue-600">
-            News & Updates
+            Updates & Insights
           </p>
 
           <h1 className="mt-4 text-5xl font-bold text-gray-900">
-            Latest News
+            Latest Updates and Insights
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -28,7 +28,7 @@ export default function NewsPage() {
             </h2>
 
             <p className="mt-6 text-lg text-gray-500">
-              Our latest news and project updates will be published here.
+              Our latest updates and insights will be published here.
             </p>
 
           </div>

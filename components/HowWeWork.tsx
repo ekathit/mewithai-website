@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HowWeWork() {
   return (
-    <section className="pt-4 pb-24 bg-white">
+    <section className="hidden bg-white pt-4 pb-24 lg:block">
       <div className="max-w-7xl mx-auto px-6">
         <Image
           src="/images/how-we-work-numbers.png"

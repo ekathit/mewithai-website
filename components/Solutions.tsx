@@ -1,43 +1,38 @@
 export default function Solutions() {
   const solutions = [
     {
-      icon: "⛓️",
-      title: "Industrial Chain",
-      desc: "Conveyor, drag and bucket elevator chains for demanding industrial applications.",
+      title: "Industrial Chains",
+      desc: "Reliable conveyor, drag and bucket elevator chains for cement, biomass and heavy industries.",
     },
     {
-      icon: "🛞",
-      title: "Conveyor Belt",
-      desc: "Rubber conveyor belts for mining, cement, biomass and heavy industries.",
+      title: "Conveyor Belts",
+      desc: "Durable rubber conveyor belts designed for reliable material handling across demanding industries.",
     },
     {
-      icon: "⚙️",
       title: "Rollers",
-      desc: "Impact, carrying and return rollers with reliable performance and long service life.",
+      desc: "High-performance conveyor rollers engineered for long service life and reduced maintenance.",
     },
     {
-      icon: "🔩",
       title: "Wear Parts",
-      desc: "Custom wear parts, fabrication and replacement components for industrial equipment.",
+      desc: "Custom wear parts and replacement components manufactured for harsh industrial environments.",
     },
     {
-      icon: "🛠️",
       title: "Engineering & QC",
-      desc: "Engineering support, third-party inspection and quality control services.",
+      desc: "Engineering support, product verification and third-party inspection to ensure quality and compliance.",
     },
     {
-      icon: "🌍",
       title: "Global Sourcing",
-      desc: "Worldwide supplier sourcing, qualification and procurement support.",
+      desc: "Worldwide sourcing and procurement support through carefully selected manufacturing partners.",
     },
   ];
 
   return (
-    <section id="solutions" className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="solutions" className="bg-white pt-16 pb-6 lg:pt-24 lg:pb-20">
+      <div className="mx-auto max-w-7xl px-6">
 
+        {/* Heading */}
         <div className="text-center">
-          <p className="text-blue-600 font-semibold uppercase tracking-widest">
+          <p className="font-semibold uppercase tracking-[0.2em] text-blue-600">
             OUR SOLUTIONS
           </p>
 
@@ -45,33 +40,45 @@ export default function Solutions() {
             Industrial Solutions
           </h2>
 
-          <p className="mt-5 max-w-3xl mx-auto text-lg text-gray-600">
+          <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-gray-600">
             We deliver engineering, procurement and industrial solutions that
             improve reliability, productivity and operational efficiency for
             heavy industries.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
+        {/* Cards */}
+        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+
           {solutions.map((item) => (
+
             <div
               key={item.title}
-              className="rounded-2xl border border-gray-200 p-8 shadow-sm hover:shadow-xl transition duration-300"
+              className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl"
             >
-              <div className="text-5xl">
-                {item.icon}
+
+              {/* Image Placeholder */}
+              <div className="aspect-[16/9] bg-slate-200">
+                {/* ใส่รูปทีหลัง */}
               </div>
 
-              <h3 className="mt-6 text-2xl font-bold text-gray-900">
-                {item.title}
-              </h3>
+              {/* Content */}
+              <div className="p-6 lg:p-8">
 
-              <p className="mt-4 text-gray-600 leading-7">
-                {item.desc}
-              </p>
+                <h3 className="text-xl font-bold text-gray-900 lg:text-2xl">
+                  {item.title}
+                </h3>
+
+                <p className="mt-4 leading-7 text-gray-600">
+                  {item.desc}
+                </p>
+
+              </div>
 
             </div>
+
           ))}
+
         </div>
 
       </div>

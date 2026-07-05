@@ -87,12 +87,11 @@ export default function WhyChooseEN() {
             </div>
 
             <h3 className="mt-4 text-lg font-semibold text-gray-900 lg:mt-6 lg:text-xl">
-              Fast Response
+              After Sales Support
             </h3>
 
             <p className="mt-3 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base lg:leading-7">
-              Quick quotations, efficient communication and responsive technical
-              support throughout your project.
+              Reliable technical support, spare parts assistance, and responsive service to maximize equipment performance.
             </p>
 
           </div>

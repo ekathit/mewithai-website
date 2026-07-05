@@ -91,13 +91,12 @@ export default function WhyChooseTH() {
             </div>
 
             <h3 className="mt-4 text-lg font-semibold text-gray-900 lg:mt-6 lg:text-xl">
-              ตอบสนองอย่างรวดเร็ว
+              การบริการหลังการขาย
             </h3>
 
             <p className="mt-3 text-sm leading-6 text-gray-600 lg:mt-4 lg:text-base lg:leading-7">
-              เสนอราคา ประสานงาน
-              และสนับสนุนด้านเทคนิค
-              อย่างรวดเร็วตลอดโครงการ
+              เราไม่เพียงส่งมอบสินค้า แต่พร้อมให้การสนับสนุนด้านเทคนิค
+              การตรวจสอบ และการให้คำปรึกษาตลอดอายุการใช้งานของอุปกรณ์
             </p>
 
           </div>

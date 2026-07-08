@@ -1,6 +1,6 @@
 export const projects = [
   {
-    customer: "SCG Kaeng Khoi",
+    customer: "SCG",
     category: "Cement Industry",
     product: "Conveyor Roller",
     delivered: "March 2026",
@@ -8,7 +8,7 @@ export const projects = [
   },
 
   {
-    customer: "SCG Tha Luang",
+    customer: "SCG",
     category: "Cement Industry",
     product: "Bucket Elevator Chain",
     delivered: "January 2026",
